@@ -3,7 +3,7 @@ version: "3"
 services: 
 
   system-laravel: 
-    image: menossi/laravel-container:latest
+    image: beatrizds/laravel-container:latest
     ports:
       - "8000:8000"
     networks:
@@ -29,5 +29,5 @@ volumes:
   Service-Database:
 
 networks: 
-  local: 
+  local:
     driver: bridge
